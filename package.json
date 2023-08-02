@@ -1,0 +1,50 @@
+{
+  "name": "bootcamp-lol-scrims",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest __tests__ --detectOpenHandles --forceExit --testTimeout=10000 ",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DannyMichaels/LoL-scrims-finder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.987.0",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^10.0.0",
+    "escape-html": "^1.0.3",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-session": "^1.17.2",
+    "faker": "^5.5.3",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "socket.io": "^4.6.1",
+    "uuidv4": "^6.2.12",
+    "yarn": "^1.22.11"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  }
+}
